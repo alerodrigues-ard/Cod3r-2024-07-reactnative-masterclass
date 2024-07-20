@@ -58,6 +58,20 @@ export default function RootLayout() {
             ),
           }}
         />
+        <Drawer.Screen
+          name="stack" // This is the name of the page and must match the url from root
+          options={{
+            drawerLabel: "Stack",
+            title: "Stack",
+            drawerIcon: () => (
+              <Ionicons
+                name="logo-stackoverflow"
+                size={18}
+                color="#3A98FF"
+              ></Ionicons>
+            ),
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );
