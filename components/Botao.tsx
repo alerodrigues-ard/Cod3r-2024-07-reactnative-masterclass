@@ -18,8 +18,8 @@ export default function Botao(props: BotaoProps) {
 const styles = StyleSheet.create({
   botao: {
     backgroundColor: "#3A7EFF",
-    marginHorizontal: 15,
-    marginVertical: 10,
+    paddingHorizontal: 15,
+    paddingVertical: 10,
     borderRadius: 5,
   },
 });
